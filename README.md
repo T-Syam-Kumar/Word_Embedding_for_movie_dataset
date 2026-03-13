@@ -105,7 +105,7 @@ The trained model is evaluated on the **test dataset** to measure performance.
 
 ### 1️⃣ Install Dependencies
 
-```bash
+
 pip install tensorflow
 
 
