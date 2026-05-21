@@ -1,11 +1,11 @@
-# 🎬 IMDB Sentiment Analysis using Word Embedding
+#  IMDB Sentiment Analysis using Word Embedding
 
 This project implements **Word Embedding using TensorFlow and Keras** to perform **Sentiment Analysis on the IMDB Movie Reviews dataset**.  
 The model learns **vector representations of words** through an **Embedding Layer** and classifies movie reviews as **Positive or Negative**.
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 Natural Language Processing (NLP) models require text data to be converted into **numerical representations** before training machine learning models.
 
@@ -19,17 +19,17 @@ In this project:
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
-- 🐍 Python  
-- 🤖 TensorFlow  
-- 🧠 Keras  
-- 🔢 NumPy  
-- 📓 Jupyter Notebook / Google Colab  
+-  Python  
+-  TensorFlow  
+-  Keras  
+-  NumPy  
+-  Jupyter Notebook / Google Colab  
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 The dataset used is the **IMDB Movie Review Dataset**, which is available directly through the **Keras library**.
 
@@ -45,28 +45,28 @@ The dataset used is the **IMDB Movie Review Dataset**, which is available direct
 
 ---
 
-# 🧠 Model Architecture
+#  Model Architecture
 
 The neural network architecture used in this project:
 
-### 1️⃣ Embedding Layer
+### 1️ Embedding Layer
 - Converts each word into a **dense vector representation**
 - Vocabulary Size: **10,000**
 - Embedding Dimension: **128**
 
-### 2️⃣ Flatten Layer
+### 2️ Flatten Layer
 - Flattens the embedding output into a **single feature vector**
 
-### 3️⃣ Dense Layer
+### 3️ Dense Layer
 - Fully connected layer
 - Activation Function: **ReLU**
 
-### 4️⃣ Output Layer
+### 4️ Output Layer
 - **Sigmoid activation** for binary classification
 
 ---
 
-# 🔄 Project Workflow
+#  Project Workflow
 
 ### Step 1: Import Required Libraries
 TensorFlow and Keras libraries are imported for building the deep learning model.
@@ -101,74 +101,74 @@ The trained model is evaluated on the **test dataset** to measure performance.
 
 ---
 
-# 🚀 How to Run the Project
+#  How to Run the Project
 
-### 1️⃣ Install Dependencies
+### 1️ Install Dependencies
 
 
 pip install tensorflow
 
 
 
-## ▶️ Run the Project
+##  Run the Project
 
 You can run the project using:
 
-- 📓 **Jupyter Notebook**
-- ☁️ **Google Colab**
-- 💻 **VS Code**
+-  **Jupyter Notebook**
+-  **Google Colab**
+-  **VS Code**
 
 ---
 
-## 📊 Expected Output
+##  Expected Output
 
 The program displays:
 
-- 📌 Number of training samples  
-- 📌 Number of testing samples  
-- 📌 Model architecture summary  
-- 📌 Training accuracy  
-- 📌 Validation accuracy  
-- 📌 Final test accuracy  
+-  Number of training samples  
+-  Number of testing samples  
+-  Model architecture summary  
+-  Training accuracy  
+-  Validation accuracy  
+-  Final test accuracy  
 
-⭐ **Typical model accuracy achieved:** 85% – 88%
-
----
-
-## 📚 Key Concepts Demonstrated
-
-- 🧠 **Word Embeddings**
-- 📖 **Natural Language Processing (NLP)**
-- 🔄 **Text Preprocessing**
-- 🤖 **Deep Learning for Sentiment Analysis**
-- ⚡ **Binary Text Classification**
+ **Typical model accuracy achieved:** 85% – 88%
 
 ---
 
-## 🎓 Learning Outcomes
+##  Key Concepts Demonstrated
+
+-  **Word Embeddings**
+-  **Natural Language Processing (NLP)**
+-  **Text Preprocessing**
+-  **Deep Learning for Sentiment Analysis**
+-  **Binary Text Classification**
+
+---
+
+##  Learning Outcomes
 
 After completing this project you will understand:
 
-- ✔️ How text data is converted into numerical sequences  
-- ✔️ How embedding layers learn semantic relationships  
-- ✔️ How neural networks perform sentiment classification  
+-  How text data is converted into numerical sequences  
+-  How embedding layers learn semantic relationships  
+-  How neural networks perform sentiment classification  
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Possible improvements to this project:
 
-- 🔹 Replace **Flatten Layer** with `GlobalAveragePooling1D`
-- 🔹 Use advanced architectures like **LSTM** or **GRU**
-- 🔹 Use **pre-trained embeddings** such as:
+-  Replace **Flatten Layer** with `GlobalAveragePooling1D`
+-  Use advanced architectures like **LSTM** or **GRU**
+-  Use **pre-trained embeddings** such as:
   - Word2Vec
   - GloVe
-- 🔹 Add **Attention Mechanisms** for improved performance
+-  Add **Attention Mechanisms** for improved performance
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Syam Kumar**  
 
