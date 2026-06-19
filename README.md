@@ -172,5 +172,5 @@ Possible improvements to this project:
 
 **Syam Kumar**  
 
-AI & Machine Learning Student  
+AI & ML Student  
 Exploring **NLP, Deep Learning, and Generative AI**
